@@ -1,0 +1,34 @@
+---
+abstract: 'designate an array as a queue or a stack'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  Test::Fatal: 0
+  Test::More: 0.96
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 0
+generated_by: 'Module::Install version 1.06'
+keywords: []
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Attribute::QueueStack
+name: Attribute-QueueStack
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Attribute::Handlers: 0
+  perl: 5.6.0
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Attribute-QueueStack
+  homepage: https://metacpan.org/release/Attribute-QueueStack
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/tobyink/p5-attribute-queuestack
+version: 0.001
