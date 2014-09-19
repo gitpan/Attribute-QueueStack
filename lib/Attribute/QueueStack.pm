@@ -1,14 +1,15 @@
-package Attribute::QueueStack;
-
 use 5.006;
 use strict;
+use warnings;
+
+package Attribute::QueueStack;
 
 use Attribute::Handlers;
 use Devel::StrictMode;
 
 BEGIN {
 	$Attribute::QueueStack::AUTHORITY = 'cpan:TOBYINK';
-	$Attribute::QueueStack::VERSION   = '0.002';
+	$Attribute::QueueStack::VERSION   = '0.003';
 }
 
 sub _detect_strict ()
@@ -184,7 +185,7 @@ Toby Inkster E<lt>tobyink@cpan.orgE<gt>.
 
 =head1 COPYRIGHT AND LICENCE
 
-This software is copyright (c) 2013 by Toby Inkster.
+This software is copyright (c) 2013, 2014 by Toby Inkster.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

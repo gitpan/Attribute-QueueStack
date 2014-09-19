@@ -7,7 +7,7 @@ my $meta = {
   "abstract"       => "designate an array as a queue or a stack",
   "author"         => ["Toby Inkster (TOBYINK) <tobyink\@cpan.org>"],
   "dynamic_config" => 0,
-  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.015, CPAN::Meta::Converter version 2.120921",
+  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.023, CPAN::Meta::Converter version 2.140640",
   "keywords"       => [],
   "license"        => ["perl_5"],
   "meta-spec"      => {
@@ -24,9 +24,9 @@ my $meta = {
                         test => { requires => { "Test::Fatal" => 0, "Test::More" => 0.96 } },
                       },
   "provides"       => {
-                        "Attribute::QueueStack" => { file => "lib/Attribute/QueueStack.pm", version => 0.002 },
-                        "Tie::Array::Queue"     => { file => "lib/Tie/Array/Queue.pm", version => 0.002 },
-                        "Tie::Array::Stack"     => { file => "lib/Tie/Array/Stack.pm", version => 0.002 },
+                        "Attribute::QueueStack" => { file => "lib/Attribute/QueueStack.pm", version => 0.003 },
+                        "Tie::Array::Queue"     => { file => "lib/Tie/Array/Queue.pm", version => 0.003 },
+                        "Tie::Array::Stack"     => { file => "lib/Tie/Array/Stack.pm", version => 0.003 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -40,9 +40,9 @@ my $meta = {
                                           url  => "git://github.com/tobyink/p5-attribute-queuestack.git",
                                           web  => "https://github.com/tobyink/p5-attribute-queuestack",
                                         },
-                        X_identifier => "http://purl.org/NET/cpan-uri/dist/Attribute-QueueStack/project",
+                        x_identifier => "http://purl.org/NET/cpan-uri/dist/Attribute-QueueStack/project",
                       },
-  "version"        => 0.002,
+  "version"        => 0.003,
 };
 
 my %dynamic_config;

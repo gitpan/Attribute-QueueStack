@@ -6,6 +6,10 @@ Home page:    <https://metacpan.org/release/Attribute-QueueStack>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Attribute-QueueStack>
 Maintainer:   Toby Inkster (TOBYINK) <tobyink@cpan.org>
 
+0.003	2014-09-19	The 'Better Together' Release
+
+ - use strict/warnings everywhere.
+
 0.002	2014-05-10
 
  [ Packaging ]

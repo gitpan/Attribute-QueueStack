@@ -25,7 +25,7 @@
 	doap:maintainer      <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:name            "Attribute-QueueStack";
 	doap:programming-language "Perl";
-	doap:release         <http://purl.org/NET/cpan-uri/dist/Attribute-QueueStack/v_0-001>, <http://purl.org/NET/cpan-uri/dist/Attribute-QueueStack/v_0-002>;
+	doap:release         <http://purl.org/NET/cpan-uri/dist/Attribute-QueueStack/v_0-001>, <http://purl.org/NET/cpan-uri/dist/Attribute-QueueStack/v_0-002>, <http://purl.org/NET/cpan-uri/dist/Attribute-QueueStack/v_0-003>;
 	doap:repository      [
 		a doap:GitRepository;
 		doap:browse <https://github.com/tobyink/p5-attribute-queuestack>;
@@ -57,6 +57,21 @@
 	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Attribute-QueueStack-0.002.tar.gz>;
 	doap:revision        "0.002"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Attribute-QueueStack/v_0-003>
+	a                    doap:Version;
+	rdfs:label           "The 'Better Together' Release";
+	dc:identifier        "Attribute-QueueStack-0.003"^^xsd:string;
+	dc:issued            "2014-09-19"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Change;
+			rdfs:label "use strict/warnings everywhere.";
+		];
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Attribute-QueueStack-0.003.tar.gz>;
+	doap:revision        "0.003"^^xsd:string.
 
 <http://purl.org/NET/cpan-uri/person/tobyink>
 	a                    foaf:Person;
